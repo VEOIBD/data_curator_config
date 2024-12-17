@@ -29,6 +29,7 @@
     },
     "model_submit": {
       "table_column_names": "display_label",
+      "table_manipulation": "replace",
       "annotation_keys": "display_label",
       "manifest_record_type": "file_only",
       "hide_blanks": false
