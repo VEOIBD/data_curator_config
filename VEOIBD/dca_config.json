@@ -30,7 +30,7 @@
     "model_submit": {
       "table_column_names": "display_label",
       "annotation_keys": "display_label",
-      "file_annotations_upload": true,
+      "use_schema_labels": true,
       "table_manipulation": "replace",
       "manifest_record_type": "file_only",
       "hide_blanks": false
