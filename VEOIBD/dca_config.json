@@ -19,7 +19,7 @@
   "schematic": {
     "global": {
       "data_model_labels" : "display_label"
-    }
+    },
     "manifest_generate": {
       "output_format": "excel",
       "use_annotations": false
