@@ -135,11 +135,18 @@
         "model_validate": {
           "description": "Parameteres to pass to Schematic model validate",
           "type": "object",
-          "required": [ "restrict_rules" ],
+          "required": [ 
+            "restrict_rules",
+            "enable_cross_manifest_validation"
+          ],
           "additionalProperties": false,
           "properties": {
             "restrict_rules": {
               "description": "Schematic model validate option",
+              "type": "boolean"
+            },
+            "enable_cross_manifest_validation": {
+              "description": "Use cross manifest validation",
               "type": "boolean"
             }
           }
@@ -152,7 +159,8 @@
             "manifest_record_type",
             "hide_blanks",
             "annotation_keys",
-            "table_column_names"
+            "table_column_names",
+            "file_annotations_upload"
           ],
           "additionalProperties": false,              
           "properties": {
@@ -179,8 +187,12 @@
             "hide_blanks": {
               "description": "Schematic model submit option",
               "type": "boolean"
+            },
+            "file_annotations_upload": {
+              "description": "Choose to add annotations to files during upload",
+              "type": "boolean"
             }
-          }              
+          }
         }
       }
     }
