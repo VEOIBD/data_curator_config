@@ -25,14 +25,16 @@
       "use_annotations": false
     },
     "model_validate": {
-      "restrict_rules": false
+      "restrict_rules": false,
+      "enable_cross_manifest_validation": false
     },
     "model_submit": {
       "table_column_names": "display_label",
       "table_manipulation": "replace",
       "annotation_keys": "display_label",
       "manifest_record_type": "file_only",
-      "hide_blanks": false
+      "hide_blanks": false,
+      "file_annotations_upload": true
     }
   }
 }
