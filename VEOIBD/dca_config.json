@@ -3,12 +3,12 @@
     "name": "VEOIBD",
     "synapse_asset_view": "syn51397378",
     "data_model_url": "https://raw.githubusercontent.com/VEOIBD/data_models/main/veoibd.data.model.jsonld",
-    "data_model_info": "",
-    "template_menu_config_file": "https://raw.githubusercontent.com/Sage-Bionetworks/data_curator_config/staging/VEOIBD/dca-template-config.json",
+    "data_model_info": "https://veoibd.github.io/data_models/",
+    "template_menu_config_file": "https://raw.githubusercontent.com/Sage-Bionetworks/data_curator_config/prod/VEOIBD/dca-template-config.json",
     "logo_location": "https://raw.githubusercontent.com/Sage-Bionetworks/data_curator_config/prod/VEOIBD/VEOIBD Logo.png",
     "logo_link": "https://veoibd.org",
-    "dcc_help_link": "",
-    "portal_help_link": ""
+    "dcc_help_link": "https://dca-docs.scrollhelp.site/DCA/Working-version/VEOIBD/?l=en",
+    "portal_help_link": "https://www.synapse.org/Synapse:syn29377188/wiki/619107"
   },
   "dca": {
     "use_compliance_dashboard": false,
@@ -18,20 +18,23 @@
   },
   "schematic": {
     "global": {
-      "data_model_labels": "class_label"
+      "data_model_labels" : "class_label"
     },
     "manifest_generate": {
       "output_format": "excel",
       "use_annotations": false
     },
     "model_validate": {
-      "restrict_rules": true
+      "restrict_rules": false,
+      "enable_cross_manifest_validation": false
     },
     "model_submit": {
-      "use_schema_labels": true,
+      "table_column_names": "display_label",
       "table_manipulation": "replace",
+      "annotation_keys": "display_label",
       "manifest_record_type": "file_only",
-      "hide_blanks": false
+      "hide_blanks": false,
+      "file_annotations_upload": true
     }
   }
 }
