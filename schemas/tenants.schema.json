@@ -20,7 +20,7 @@
         },
           "config_location": {
             "type": "string",
-            "pattern": "^(dcc|test).+\\.json$"
+            "pattern": ".json$"
         }
       }
     }

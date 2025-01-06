@@ -1,27 +1,27 @@
 {
   "dcc": {
-    "name": "DCA Demo",
-    "synapse_asset_view": "syn33715412",
+    "name": "DCA Smoke Test Nested Folder",
+    "synapse_asset_view": "syn63836189",
     "data_model_url": "https://raw.githubusercontent.com/Sage-Bionetworks/data-models/main/example.model.jsonld",
     "data_model_info": "",
     "data_model_version_as_annotation":true,
     "data_model_version_as_column":true,
-    "template_menu_config_file": "https://raw.githubusercontent.com/Sage-Bionetworks/data_curator_config/prod/demo/dca-template-config.json",
-    "logo_location": "https://raw.githubusercontent.com/Sage-Bionetworks/data_curator_config/prod/demo/Logo_Sage_Logomark.png",
+    "template_menu_config_file": "https://raw.githubusercontent.com/Sage-Bionetworks/data-models/main/dca-template-config.json",
+    "logo_location": "dcc/demo/Logo_Sage_Logomark.png",
     "logo_link": "https://synapse.org",
     "dcc_help_link": "",
     "portal_help_link": ""
   },
   "dca": {
-    "use_compliance_dashboard": true,
+    "use_compliance_dashboard": false,
     "primary_col": "#2a668d",
     "secondary_col": "#184e71",
     "sidebar_col": "#191919"
   },
   "schematic": {
     "manifest_generate": {
-      "output_format": "google_sheet",
-      "use_annotations": false
+      "output_format": "excel",
+      "use_annotations": true
     },
     "model_validate": {
       "restrict_rules": false
@@ -30,7 +30,8 @@
       "use_schema_labels": true,
       "table_manipulation": "replace",
       "manifest_record_type": "table_and_file",
-      "hide_blanks": false
+      "hide_blanks": false,
+      "file_annotations_upload":true
     }
   }
 }

@@ -4,6 +4,8 @@
     "synapse_asset_view": "syn52701135",
     "data_model_url": "https://raw.githubusercontent.com/Sage-Bionetworks/data-models/main/example.model.jsonld",
     "data_model_info": "",
+    "data_model_version_as_annotation":true,
+    "data_model_version_as_column":true,
     "template_menu_config_file": "https://raw.githubusercontent.com/Sage-Bionetworks/data-models/main/dca-template-config.json",
     "logo_location": "dcc/demo/Logo_Sage_Logomark.png",
     "logo_link": "https://synapse.org",
