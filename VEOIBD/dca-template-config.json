@@ -6,16 +6,16 @@
       "type": "record"
     },
     {
-      "display_name": "Biospecimen Metadata Template",
-      "schema_name": "BiospecimenMetadataTemplate",
+      "display_name": "Medication History Metadata Template",
+      "schema_name": "MedicationHistoryMetadataTemplate",
       "type": "record"
     },
     {
-      "display_name": "scRNAseq Assay Template",
-      "schema_name": "ScRNASeqAssayTemplate",
-      "type": "file"
+      "display_name": "Biospecimen Metadata Template",
+      "schema_name": "BiospecimenMetadataTemplate",
+      "type": "record"
     }
   ],
-  "service_version": "v23.1.1",
+  "service_version": "",
   "schema_version": ""
 }
