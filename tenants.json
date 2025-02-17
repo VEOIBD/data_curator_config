@@ -54,6 +54,11 @@
       "name":"HTAN Phase 2 All Projects",
       "synapse_asset_view":"syn63714258",
       "config_location":"HTAN2/dca_config.json"
+    },
+    {
+      "name":"AMP AIM",
+      "synapse_asset_view":"syn64332440",
+      "config_location":"AMP-AIM/dca_config.json"
     }
   ]
 }
