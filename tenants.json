@@ -64,6 +64,11 @@
       "name":"DCA Smoke Test Nested Folder",
       "synapse_asset_view":"syn63836189",
       "config_location":"test/smoke_test_secondary.json"
+    },
+    {
+      "name":"AMP AIM",
+      "synapse_asset_view":"syn64332440",
+      "config_location":"AMP-AIM/dca_config.json"
     }
   ]
 }
